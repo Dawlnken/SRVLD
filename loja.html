@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+
+		<meta chatset ="UTF-8">
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet"href="style.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet"> 
+
+		<title>Survivalandia | Loja</title>
+	</head>
+	<body>
+			<header>
+				<a href="index.html">
+					<img src="logo.png" alt="Início">
+				</a>
+				<nav>
+					<ul>
+						<li><a href="votar.html">Votar</a></li>
+						<li><a href="loja.html">Loja</a></li>
+						<li><a href="wiki.html">Wiki</a></li>
+						<li><a href="equipe.html">Equipe</a></li>
+						<li><a href="regras.html">Regras</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<article id="pagina-loja">
+				<div id="tit-loja">
+					<h1>Loja</h1>
+				</div>
+					<form id="form-loja">
+
+						<label for="nome-usuario" class="label-nomeuser">Insira seu nick</label>
+						<input type="text" id="nome-usuario" class="entrada-padrao" required placeholder="Exemplo: Notch">
+
+						<fieldset class="radiobox-pagamento">
+							<legend class="l1">Escolha um método de pagamento</legend>
+
+							<label for="radio-paypal"><input type="radio" name="pagamento" value="paypal" id="radio-paypal">PayPal</label>
+							
+
+							<label for="radio-pix"><input type="radio" name="pagamento" value="pix" id="radio-pix" checked>PIX</label>
+							
+							<legend class="l2">Escolha um ciclo de pagamento</legend>
+
+							<select id="ciclo-pag">
+								<option>Mensal</option>
+								<option>Trimestral (desconto)</option>
+							</select>
+
+							<input type="submit" value="Proceder para Pagamento" class="botao-proceder">
+						</fieldset>
+					</form>
+			</article>
+		<footer>&copy Survivalandia</footer>
+	</body>
+</html>

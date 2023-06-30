@@ -1,0 +1,419 @@
+/*body serve para todas as paginas*/
+
+body {
+	background: url(fundo.jpg) no-repeat center center fixed;
+	font-family: 'Lato', sans-serif;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+/*header serve para todas as paginas*/
+header {
+	font-size: 20px;
+	padding: 5px;
+	background-color: #111;
+	font-weight:900;
+	display: flex;
+	align-items: center;
+	position: fixed; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	z-index: 1000; 
+}
+
+nav{
+	display: inline-block;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+header img {
+	margin-right: 10px;
+	margin-left: 20px;
+}
+
+header ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header li{
+	display: inline-block;
+	margin-right: 1px;
+}
+
+header a{
+	color: #fff;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin-top: 60px;
+}
+
+/*-----------------------*/
+/*Homepage*/
+/*-----------------------*/
+
+#pagina-inicial{
+	width: 90vw;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 40px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #ffffff
+}
+
+nav a:hover{
+	color: #00dbe3;
+}
+
+/* .card-principal{
+	background-color: #ccc;
+	padding: 20px;
+	width: 80vh;
+	justify-content: center;
+} CARD DIV
+*/
+
+.titulos h1{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 6em;
+	height: 30vh;
+
+	background: linear-gradient(to right, #020033, #00ffff);
+	color: transparent;
+	background-clip: text;
+	-webkit-background-clip: text;
+}
+
+.ancora-jogar{
+	text-align: center;
+	background: #111;
+	padding: 10px;
+	height: 50px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	border-radius: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+}
+
+.ancora-jogar:hover{
+	background: #000;
+}
+
+.texto-jogar{
+	margin: auto;
+	font-size: 45px;
+	color: #fff;
+	font-weight: bold;
+}
+
+footer{
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	margin-top: auto;
+}
+
+/*-----------------------*/
+/*página jogar*/
+/*-----------------------*/
+
+.endereços{
+	padding-top: 90px;
+	margin: 0 auto;
+	width: 940px;
+	display: flex;
+	justify-content: center;
+}
+
+.endereços li{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+	background: #111;
+	padding: 30px 20px 20px 20px;
+	border-radius: 30px;
+}
+
+.endereços h1{
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.endereços p{
+	color: #fff;
+	font-size: 20px;
+}
+
+.p1{
+	margin-bottom: 20px;
+}
+
+.imagem-jogar{
+	width: 400px;
+	height: 225px;
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+/*-----------------------*/
+/*página Regras*/
+/*-----------------------*/
+
+#pagina-regras{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#tit-regras{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+.div-lista-regras{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: #ffffff;
+	font-size: 25px;
+	background-color: #111;
+	margin-top: 100px;
+	margin-bottom: 150px;
+	border-radius: 20px;
+	background-clip: padding-box;
+}
+
+ol{
+	list-style-type: decimal;
+	margin: 50px;
+}
+
+.item-lista-regras{
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.item-lista-regras p{
+	margin-top: 8px;
+	font-size: 20px;
+}
+
+/*-----------------------*/
+/*página Wiki*/
+/*-----------------------*/
+
+#pagina-wiki{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#tit-wiki{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+#texto-wiki{
+	color: #fff;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+/*-----------------------*/
+/*página Votar*/
+/*-----------------------*/
+
+#pagina-votar{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#tit-votar{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+#texto-votar{
+	color: #fff;
+	font-size: 25px;
+	margin-top: 50px;
+}
+
+/*-----------------------*/
+/*página Equipe*/
+/*-----------------------*/
+
+#conteudo-equipe{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#tit-equipe{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+.container-da-tabela{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50vh;
+	
+}
+
+.tabela-equipe{
+	border-collapse: separate;
+	border-spacing: 0px;
+	width: 100px;
+	color: white;
+	width: 40%;
+}
+
+thead tr:first-child td{
+	text-align: center;
+	font-weight: bold;
+	background-color: #111;
+}
+
+.tabela-equipe td{
+	padding: 10px;
+	text-align: left;
+	border: 1px solid #595959;
+	background-color: #232323;
+}
+
+.canto1{
+	border-top-left-radius: 15px;
+}
+
+.canto2{
+	border-top-right-radius: 15px;
+}
+
+.canto3{
+	border-bottom-left-radius: 15px;
+}
+
+.canto4{
+	border-bottom-right-radius: 15px;
+}
+
+.tit-local{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 4vh;
+}
+
+.mapa{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 5vh;
+}
+
+.mapa iframe{
+	border-radius: 20px;
+}
+
+/*-----------------------*/
+/*página Loja*/
+/*-----------------------*/
+
+#pagina-loja{
+	width: 80vw;
+	margin: 0 auto;
+}
+
+#tit-loja{
+	color: white;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 35px;
+	margin-top: 50px;
+}
+
+#form-loja{
+	color: #fff;
+	margin: 50px 0;
+	font-size: 20px;
+}
+
+.entrada-padrao{
+	display: block;
+	border-radius: 10px;
+	font-size: 20px;
+	margin: 10px 0 20px;
+	width: 300px;
+	height: 40px;
+}
+
+.l1{
+	margin-bottom: 20px;
+}
+
+.l2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#ciclo-pag{
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+}
+
+#ciclo-pag:hover{
+	background-color: #ccc;
+}
+
+.botao-proceder{
+	display: block;
+	margin-top: 65px;
+	height: 30px;
+	width: 200px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	font-weight: bold;
+	transition: 0.5s background;
+	cursor: pointer;
+}
+
+.botao-proceder:hover{
+	background-color:#adadad;
+}
