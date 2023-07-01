@@ -104,10 +104,6 @@ nav a:hover{
 	-webkit-background-clip: text;
 }
 
-.titulos h1:first-letter{
-	font-size: 10em;
-}
-
 .ancora-jogar{
 	text-align: center;
 	background: #111;
