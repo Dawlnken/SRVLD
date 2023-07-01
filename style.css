@@ -97,11 +97,15 @@ nav a:hover{
 	text-align: center;
 	font-size: 6em;
 	height: 30vh;
-
+	/*estilo gradiente do nome do server*/
 	background: linear-gradient(to right, #020033, #00ffff);
 	color: transparent;
 	background-clip: text;
 	-webkit-background-clip: text;
+}
+
+.titulos h1:first-letter{
+	font-size: 10em;
 }
 
 .ancora-jogar{
@@ -209,7 +213,7 @@ footer{
 	background-clip: padding-box;
 }
 
-ol{
+.div-lista-regras ol{
 	list-style-type: decimal;
 	margin: 50px;
 }
@@ -219,9 +223,23 @@ ol{
 	margin-top: 10px;
 }
 
+.item-lista-regras:nth-child(1){
+	font-style: italic;
+}
+
+.item-lista-regras:nth-child(9){
+	font-style: italic;
+}
+
+
 .item-lista-regras p{
 	margin-top: 8px;
 	font-size: 20px;
+}
+
+.item-lista-regras:before{
+	content: "⚠";
+	color: orange;
 }
 
 /*-----------------------*/
